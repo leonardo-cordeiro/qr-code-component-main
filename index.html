@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    body {
+      font-family: Outfit;
+      font-size: 15px;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 1.25rem;
+    }
+
+    .container {
+      background: hsl(0, 0%, 100%);
+      padding: 1.25rem;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 0.625rem;
+      margin-bottom: 2rem;
+    }
+
+    .container img {
+      border-radius: 0.625rem;
+      margin-bottom: 1rem;
+      max-width: 100%;
+    }
+
+    .container h2 {
+      color: hsl(218, 44%, 22%);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .container p {
+      color: hsl(220, 15%, 55%);
+      text-align: center;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    @media (min-width: 500px) {
+      .container {
+        width: 400px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="images/image-qr-code.png" alt="qr_code">
+
+    <h2>Improve your front-end skills by building projects</h2>
+
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to next level</p>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Leonardo Cordeiro</a>.
+  </div>
+</body>
+
+</html>
